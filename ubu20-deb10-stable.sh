@@ -24,10 +24,10 @@ clear;clear;clear
 
   # // Banner
 echo -e ""
-echo -e "${BLUE}$┌──────────────────────────────────────────┐${NC}"
-echo -e "${BLUE}$│        AUTO SCRIPT BY ALAWI VPN          │${NC}"
-echo -e "${BLUE}$│    SILAHKAN IKUTI ARAHAN DEMI ARAHAN     │${NC}"
-echo -e "${BLUE}$└──────────────────────────────────────────┘${NC}"
+echo -e "${BLUE}┌──────────────────────────────────────────┐${NC}"
+echo -e "${BLUE}│        AUTO SCRIPT BY ALAWI VPN          │${NC}"
+echo -e "${BLUE}│    SILAHKAN IKUTI ARAHAN DEMI ARAHAN     │${NC}"
+echo -e "${BLUE}└──────────────────────────────────────────┘${NC}"
 echo -e ""
 sleep 2
 ###### IZIN SC 
