@@ -23,12 +23,11 @@ clear && clear && clear
 clear;clear;clear
 
   # // Banner
-echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Dev > bimaVPN ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
-echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}bimaVPN ® ${NC}${YELLOW}(${NC} ${green} BIMA VPN⭐ ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self bimaVPN ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
-echo -e "${YELLOW}----------------------------------------------------------${NC}"
+echo ""
+echo "${BLUE}┌──────────────────────────────────────────┐${NC}"
+echo "${BLUE}│        AUTO SCRIPT BY ALAWI VPN          │${NC}"
+echo "${BLUE}│    SILAHKAN IKUTI ARAHAN DEMI ARAHAN     │${NC}"
+echo "${BLUE}└──────────────────────────────────────────┘${NC}"
 echo ""
 sleep 2
 ###### IZIN SC 
@@ -60,7 +59,7 @@ fi
 
 # // Validate Successfull
 echo ""
-read -p "$( echo -e "Press ${GRAY}[ ${NC}${green}Enter${NC} ${GRAY}]${NC} For Starting Installation") "
+read -p "$( echo -e "Tekan ${GRAY}[ ${NC}${green}[ Enter ]${NC} ${GRAY}]${NC} untuk memulai instalasi") "
 echo ""
 clear
 if [ "${EUID}" -ne 0 ]; then
