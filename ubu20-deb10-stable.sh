@@ -24,10 +24,10 @@ clear;clear;clear
 
   # // Banner
 echo -e ""
-echo -e "$BLUE┌──────────────────────────────────────────┐$NC"
-echo -e "$BLUE│        AUTO SCRIPT BY ALAWI VPN          │$NC"
-echo -e "$BLUE│    SILAHKAN IKUTI ARAHAN DEMI ARAHAN     │$NC"
-echo -e "$BLUE└──────────────────────────────────────────┘$NC"
+echo -e "┌──────────────────────────────────────────┐"
+echo -e "│        AUTO SCRIPT BY ALAWI VPN          │"
+echo -e "│    SILAHKAN IKUTI ARAHAN DEMI ARAHAN     │"
+echo -e "└──────────────────────────────────────────┘"
 echo -e ""
 sleep 2
 ###### IZIN SC 
@@ -59,7 +59,7 @@ fi
 
 # // Validate Successfull
 echo ""
-read -p "$( echo -e "Tekan ${GRAY}[ ${NC}${green}[ Enter ]${NC} ${GRAY}]${NC} untuk memulai instalasi") "
+read -p "$( echo -e "Tekan ${GRAY}[ ${NC}${green}Enter${NC} ${GRAY}]${NC} untuk memulai instalasi") "
 echo ""
 clear
 if [ "${EUID}" -ne 0 ]; then
